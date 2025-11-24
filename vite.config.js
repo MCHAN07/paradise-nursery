@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/shoppingreact",
   plugins: [react()],
+  base: './' // penting untuk deploy ke Vercel atau GitHub Pages
 })
